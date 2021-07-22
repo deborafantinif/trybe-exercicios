@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+  text-align: center;
+}
+
+ul {
+  background: palevioletred;
+  line-height: 50px;
+  text-align: center;
+  list-style: none;
+}
+
+.colorChange {
+  background: pink;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#red {
+  background: red;
+}
+
+#brown {
+  background: brown;
+}
