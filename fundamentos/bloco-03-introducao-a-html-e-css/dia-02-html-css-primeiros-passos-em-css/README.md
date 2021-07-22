@@ -18,3 +18,8 @@
 6. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
 >Link de referência para propriedades de texto em CSS
 >Não se esqueça de dar um PUSH no seu repositório para sincronizá-lo com o GitHub!
+
+## Exercício 3
+
+1. Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
+>Não se esqueça de dar um PUSH no seu repositório para sincronizá-lo com o GitHub
