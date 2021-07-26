@@ -1,0 +1,17 @@
+h1,
+p {
+  text-align: center;
+}
+
+/*LoVe Fears HAte*/
+ol:hover {
+  background-color: rgb(177, 147, 206);
+}
+
+li:focus {
+  font-style: italic;
+}
+
+ul, ol {
+    list-style: none;
+}
