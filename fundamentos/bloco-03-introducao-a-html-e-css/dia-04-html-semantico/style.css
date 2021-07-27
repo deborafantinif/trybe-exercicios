@@ -38,20 +38,23 @@ nav ul li a:hover {
   clear: both;
 }
 
-section {
-  padding: 40px;
-  margin: 20px 0px;
+/*SOBRE*/
+main {
+  width: 80%;
+  margin: auto;
 }
 
-.texto {
-  padding: 10px;
+section {
+  padding: 20px 0px;
 }
+
+.centro {
+  text-align: center;
+}
+
 
 .texto img {
   float: left;
+  margin: 0 10px 10px 0;
 }
 
-.texto div {
-    padding-left: 50px;
-    margin: 50px;
-}
