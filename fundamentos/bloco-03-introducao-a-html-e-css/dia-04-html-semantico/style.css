@@ -5,6 +5,8 @@ body {
 
 header {
   background-color: #9bc1bc;
+  position: fixed;
+  width: 100%;
 }
 
 h1 {
@@ -50,11 +52,17 @@ section {
 
 .centro {
   text-align: center;
+  padding-top: 60px;
 }
 
 
 .texto img {
   float: left;
   margin: 0 10px 10px 0;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
 }
 
