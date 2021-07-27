@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  background-color: #e6ebe0;
+}
+
+header {
+  background-color: #9bc1bc;
+}
+
+h1 {
+  margin: 0px;
+  float: left;
+  padding: 20px;
+}
+
+nav {
+  margin: 0px;
+  float: right;
+}
+
+nav ul li {
+  float: right;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  color: #3581b8;
+  text-decoration: none;
+  padding: 30px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+.texto {
+  padding: 10px;
+}
+
+.texto img {
+  float: left;
+}
+
+.texto div {
+    padding-left: 50px;
+    margin: 50px;
+}
