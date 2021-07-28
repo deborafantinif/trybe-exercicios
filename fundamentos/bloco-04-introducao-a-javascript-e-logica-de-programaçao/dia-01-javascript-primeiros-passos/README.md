@@ -26,3 +26,9 @@
     - Se a nota for menor que 60, imprima "Você foi reprovada(o)"
 3. Crie uma estrutura condicional utilizando o **if , else if e else** para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
 4. Altere o valor da nota para verificar se as condições que você implementou funcionam;
+
+
+## Para fixar - Parte 4
+
+1. Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: **'aprovada' , 'lista' ou 'reprovada'**;
+2. Crie uma estrutura condicional com o **switch/case** que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for **'aprovada' , 'lista' ou 'reprovada'**. Como **default**, imprima a mensagem de **'não se aplica'**.
