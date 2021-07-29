@@ -1,6 +1,6 @@
 # Dia 02
 
-## Para Fixar - Parte I
+## Para Fixar - Parte I :writing_hand:	
 
 ### Exercício 01
 - Obtenha o valor "Serviços" do array **menu**:
@@ -29,7 +29,7 @@ console.log(menu);
 ```
 
 
-## Para Fixar - Parte II
+## Para Fixar - Parte II :writing_hand:	
 
 ### Exercício 01
 - Utilize o **for** para imprimir os elementos da lista **groceryList** com o **console.log()**:
@@ -47,7 +47,7 @@ let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 ```
 
 
-## Exercícios
+## Exercícios :writing_hand:	
 
 ```
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
