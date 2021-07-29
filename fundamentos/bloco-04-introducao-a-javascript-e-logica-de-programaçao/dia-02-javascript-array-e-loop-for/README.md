@@ -65,7 +65,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por **2**.
 
 
-## Bônus
+## Bônus :rainbow:
 
 Para os próximos dois exercícios [leia](http://devfuria.com.br/logica-de-programacao/introducao-ao-algoritmo-de-ordenacao-bubble-sort/) este artigo e tente entender o que está acontencedo no código abaixo:
 
