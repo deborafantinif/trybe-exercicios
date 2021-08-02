@@ -1,6 +1,6 @@
 # Dia 04
 
-## Para FIxar - Parte I
+## Para Fixar - Parte I
 
 1. Crie um objeto player contendo as variáveis listadas abaixo.
 ```
@@ -21,3 +21,23 @@ let medals = { golden: 2, silver: 3 };
 
 5. Acesse a chave **medals** e faça um **console.log** no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 Agora veremos uma variação do laço **for**, que nos garante facilidade ao lidar com objetos.
+
+
+## Para Fixar - Parte II
+
+1. Usando o objeto abaixo, utilize For/in e imprima no console a mensagem **'Olá xxxxx'** para cada nome, substituindo o **xxxxx** pelo nome em questão.
+```
+let names = {
+  person1: 'João',
+  person2: 'Maria',
+  person3: 'Jorge' 
+};
+```
+2. Usando o objeto abaixo, utilize For/in e imprima um **console.log** com as chaves e valores desse objeto.
+```
+let car = {
+  model: 'A3 Sedan',
+  manufacturer: 'Audi',
+  year: 2020
+};
+```
