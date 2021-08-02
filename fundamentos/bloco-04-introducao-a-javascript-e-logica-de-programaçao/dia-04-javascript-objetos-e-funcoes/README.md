@@ -41,3 +41,7 @@ let car = {
   year: 2020
 };
 ```
+
+## Para Fixar - Parte III
+
+Peque os exercícios da primeira parte (módulo 1 - bloco 4 - dia 1) e faça que eles sejam funções.
