@@ -1,6 +1,6 @@
 # Dia 04
 
-## Para Fixar - Parte I
+## Para Fixar - Parte I :writing_hand:
 
 1. Crie um objeto player contendo as variáveis listadas abaixo.
 ```
@@ -23,7 +23,7 @@ let medals = { golden: 2, silver: 3 };
 Agora veremos uma variação do laço **for**, que nos garante facilidade ao lidar com objetos.
 
 
-## Para Fixar - Parte II
+## Para Fixar - Parte II :writing_hand:
 
 1. Usando o objeto abaixo, utilize For/in e imprima no console a mensagem **'Olá xxxxx'** para cada nome, substituindo o **xxxxx** pelo nome em questão.
 ```
@@ -42,12 +42,12 @@ let car = {
 };
 ```
 
-## Para Fixar - Parte III
+## Para Fixar - Parte III :writing_hand:
 
 Peque os exercícios da primeira parte (módulo 1 - bloco 4 - dia 1) e faça que eles sejam funções.
 
 
-## Exercícios - Parte I - Objetos e For/In
+## Exercícios - Parte I - Objetos e For/In :writing_hand:
 
 Usando o objeto abaixo, faça os exercícios a seguir:
 ```
