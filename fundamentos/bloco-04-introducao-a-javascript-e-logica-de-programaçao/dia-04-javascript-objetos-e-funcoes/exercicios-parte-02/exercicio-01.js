@@ -11,7 +11,6 @@ function vereficaPalindrome(palavra) {
         return false
     }
 
-
 }
 
-console.log(vereficaPalindrome('ovo'))
+console.log(vereficaPalindrome('pedro'))
