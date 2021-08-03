@@ -128,6 +128,7 @@ Ambos recorrentes // Atenção para essa última linha!
 ## Bônus :rainbow:
 
 1. (Difícil) Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
+
 :warning: **Atenção! Esse exercício já apareceu no processo seletivo de uma grande multinacional!**
 **Dicas:**
   - Uma string é um array de caracteres, então cada elemento do array é uma letra.
