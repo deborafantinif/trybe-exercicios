@@ -1,4 +1,4 @@
-let n = 7
+let n = 5
 let linha = ''
 let centro = ((n - 1) / 2) + 1
 
