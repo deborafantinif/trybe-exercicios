@@ -93,7 +93,7 @@ Ambos recorrentes // Atenção para essa última linha!
 ```
 
 
-## Exercícios - Parte II - Funções
+## Exercícios - Parte II - Funções :writing_hand:
 
 1. Crie uma função que receba uma **string** e retorne **true** se for um **palíndromo**, ou false , se não for.
     - Exemplo de palíndromo: arara .
