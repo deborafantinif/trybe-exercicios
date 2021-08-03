@@ -1,8 +1,8 @@
 function menorValor(array) {
-    let menor
+    let menor = 0
 
-    for(let i = 0; i < array.length; i =+ 1) {
-        if(array[i] < array[i + 1]) {
+    for(let i = 0; i < array.length; i += 1) {
+        if(array[i] < array[menor]) {
             menor = i
         }
     }
