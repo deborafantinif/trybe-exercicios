@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="text">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="text">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red"; 
+
+      document.querySelector("#page-title").innerText = "A visita";
+
+      document.querySelector("#second-paragraph").innerText = "Olimpíadas 2021!!";
+
+      document.querySelector("#subtitle").style.color = "blue";
+
+      document.querySelector(".text").innerText = "Meu nome é Debora Fantini";
+
+      document.querySelectorAll("h4")[0].style.color = "violet";
+    </script>
+  </body>
+</html>
