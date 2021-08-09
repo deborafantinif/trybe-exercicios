@@ -18,3 +18,9 @@
 
 > Usando o getSelector
 Substitua todos os getElement que utilizou na parte II por querySelector.
+
+
+## Exercícios :writing_hand:
+1. A seguir, você verá um trecho de código **HTML e CSS**.
+1. Crie um arquivo **HTML** dentro do diretório **exercises/javascript-dom-eventos-e-web-storage_1** e copie o código a seguir.
+1. Leia as instruções que estão dentro de um comentário na tag **<script>**.
