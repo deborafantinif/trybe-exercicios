@@ -1,6 +1,6 @@
 # DIA 01
 
-## Para Fixar - Parte I
+## Para Fixar - Parte II :writing_hand:
 
 > getElementById
 1. Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
@@ -11,4 +11,10 @@
 1. Adicione uma classe igual para os dois parágrafos.
 2. Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
 3. Altere algum estilo do primeiro deles.
-4. Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .
+4. Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName.
+
+
+## Para Fixar - Parte III :writing_hand:
+
+> Usando o getSelector
+Substitua todos os getElement que utilizou na parte II por querySelector.
