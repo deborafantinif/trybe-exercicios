@@ -43,7 +43,7 @@ A partir do docuemento anterior faça as seguintes alterações:
 > Remova todos os elementos filhos de **paiDoPai** exceto **pai**, **elementoOndeVoceEsta** e **primeiroFilhoDoFilho**.
 
 
-## Exercícios 
+## Exercícios :writing_hand:
 
 A partir do documento abaixo: 
 ```
