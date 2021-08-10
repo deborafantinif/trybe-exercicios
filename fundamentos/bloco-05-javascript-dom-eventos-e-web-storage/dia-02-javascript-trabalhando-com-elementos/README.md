@@ -36,3 +36,8 @@ A partir do docuemento anterior faça as seguintes alterações:
 2. Crie um filho para **elementoOndeVoceEsta**.
 3. Crie um filho para **primeiroFilhoDoFilho**.
 4. A partir desse filho criado, acesse **terceiroFilho**.
+
+
+## Para Fixar - Parte III :writing_hand:
+
+> Remova todos os elementos filhos de **paiDoPai** exceto **pai**, **elementoOndeVoceEsta** e **primeiroFilhoDoFilho**.
