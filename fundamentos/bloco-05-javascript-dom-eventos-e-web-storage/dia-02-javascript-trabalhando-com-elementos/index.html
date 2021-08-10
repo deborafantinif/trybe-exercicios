@@ -57,64 +57,79 @@
   </head>
   <body>
     <script>
-      //1. Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body 
-      let h1 = document.createElement('h1');
+      //PARTE 1
+      //1. Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body
+      let h1 = document.createElement("h1");
       document.body.appendChild(h1);
 
       //2. Adicione a tag main com a classe main-content como filho da tag body
-      let main = document.createElement('main');
-      main.className = 'main-content';
+      let main = document.createElement("main");
+      main.className = "main-content";
       document.body.appendChild(main);
 
       //3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2
-      let section = document.createElement('section');
-      section.className = 'center-content';
-      document.querySelector('main').appendChild(section);
+      let section = document.createElement("section");
+      section.className = "center-content";
+      document.querySelector("main").appendChild(section);
 
       //4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto
-      let p = document.createElement('p');
-      document.querySelector('section').appendChild(p);
+      let p = document.createElement("p");
+      document.querySelector("section").appendChild(p);
 
       //5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2
-      let secondSection = document.createElement('section');
-      secondSection.className = 'left-content';
-      document.querySelector('main').appendChild(secondSection);
+      let secondSection = document.createElement("section");
+      secondSection.className = "left-content";
+      document.querySelector("main").appendChild(secondSection);
 
       //6. Adicione a tag section com a classe right-content como filho da tag main criada no passo 2
-      let thirdSection = document.createElement('section');
-      thirdSection.className = 'right-content';
-      document.querySelector('main').appendChild(thirdSection);
+      let thirdSection = document.createElement("section");
+      thirdSection.className = "right-content";
+      document.querySelector("main").appendChild(thirdSection);
 
       //7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5
-      let img = document.createElement('img');
-      img.src = 'https://picsum.photos/200';
-      img.className = 'small-image';
-      document.querySelector('.left-content').appendChild(img);
+      let img = document.createElement("img");
+      img.src = "https://picsum.photos/200";
+      img.className = "small-image";
+      document.querySelector(".left-content").appendChild(img);
 
       //8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6
       //adicionei a ul dentro da terceita section
-      let ul = document.createElement('ul');
-      document.querySelector('.right-content').appendChild(ul);
-      
-      const numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      let ul = document.createElement("ul");
+      document.querySelector(".right-content").appendChild(ul);
+
+      const numbers = [
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez",
+      ];
 
       for (let i = 0; i < numbers.length; i += 1) {
         let number = numbers[i];
 
-        let li = document.createElement('li');
+        let li = document.createElement("li");
         li.innerHTML = number;
-        document.querySelector('ul').appendChild(li);
+        document.querySelector("ul").appendChild(li);
       }
 
       //9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2
-      let h3 = document.createElement('h3');
-      let secondH3 = document.createElement('h3');
-      let thirdH3 = document.createElement('h3');
+      let h3 = document.createElement("h3");
+      let secondH3 = document.createElement("h3");
+      let thirdH3 = document.createElement("h3");
 
-      document.querySelector('main').appendChild(h3);
-      document.querySelector('main').appendChild(secondH3);
-      document.querySelector('main').appendChild(thirdH3);
+      document.querySelector("main").appendChild(h3);
+      document.querySelector("main").appendChild(secondH3);
+      document.querySelector("main").appendChild(thirdH3);
 
+      //PARTE 2
+      //1. Adicione a classe title na tag h1 criada
+      h1.className = 'title';
     </script>
   </body>
 </html>
