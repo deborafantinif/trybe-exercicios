@@ -89,7 +89,22 @@
       let img = document.createElement('img');
       img.src = 'https://picsum.photos/200';
       img.className = 'small-image';
-      document.querySelector('.left-content').appendChild(img)
+      document.querySelector('.left-content').appendChild(img);
+
+      //8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6
+      //adicionei a ul dentro da terceita section
+      let ul = document.createElement('ul');
+      document.querySelector('.right-content').appendChild(ul);
+      
+      const numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+      for (let i = 0; i < numbers.length; i += 1) {
+        let number = numbers[i];
+
+        let li = document.createElement('li');
+        li.innerHTML = number;
+        document.querySelector('ul').appendChild(li);
+      }
     </script>
   </body>
 </html>
