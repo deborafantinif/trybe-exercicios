@@ -137,8 +137,10 @@
       thirdH3.className = 'description';
 
       //3. Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild()
-      let leftContent = document.querySelector('.left-content');
-      document.querySelector('main').removeChild(leftContent);
+      document.querySelector('main').removeChild(secondSection);
+
+      //4. Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section
+      thirdSection.style.marginRight = 'auto';
     </script>
   </body>
 </html>
