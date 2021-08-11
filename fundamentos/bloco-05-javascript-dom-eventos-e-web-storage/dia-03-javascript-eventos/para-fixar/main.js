@@ -24,7 +24,7 @@ const myWebpage = document.getElementById('mySpotrybefy');
 // redirecione para alguma página;
 //4.1. Que tal redirecionar para seu portifólio?
     function myPortfolio() {
-        myWebpage.innerHTML = '<a href="https://deborafantinif.github.io/" target="_blank">Meu top 3 do Spotrybefy</a>'
+        location.href = 'https://deborafantinif.github.io/';
     }
 
     myWebpage.addEventListener('dblclick', myPortfolio);
