@@ -9,9 +9,14 @@ function numberFruit(array) {
         count[value] += 1
     }
 
+    let frase = 'Sua cesta possui '
+
     for(let key in count) {
-        console.log('Sua cesta possui ' + count[key] + ' ' + key)
+        if (key === coun)
+        frase += count[key] + ' ' + key + ', '
     }
+
+    console.log(frase)
 }
 
 const basket = [
