@@ -21,19 +21,18 @@ function createDaysOfTheMonth() {
     for (let i of dezDaysList) {
         const day = document.createElement('li');
         day.innerText = i;
-        if (i == 25 | i == 24 || i == 31) {
-            day.className = 'day holiday'
-        } else if (i == 25 || i == 18 || i == 11 || i == 4) {
+        if (i == 24 || i == 31) {
+            day.className = 'day holiday';
+        } else if (i == 18 || i == 11 || i == 4) {
             day.className = 'day friday';
+        } else if (i === 25) {
+            day.className = 'day friday holiday';
         } else {
-            day.className = 'day'
+            day.className = 'day';
         }
         days.appendChild(day)
-    }
-
-    
+    } 
 }
-
 createDaysOfTheMonth();
 
 
@@ -44,50 +43,144 @@ function buttonHoliday(string) {
     buttonH.id = "btn-holiday"
     document.querySelector('.buttons-container').appendChild(buttonH);
 }
-
 buttonHoliday('Feriados');
 
 
+//Exercício 3
+    let btnH = document.querySelector('#btn-holiday');
+    btnH.addEventListener('click', changeColor);
 
+    function changeColor() {
+        let daysH = document.querySelectorAll('.holiday');
+        for (let i of daysH) {
+            if (i.style.backgroundColor === 'rgb(238, 238, 238)') {
+                i.style.backgroundColor = 'red';
+            } else {
+              i.style.backgroundColor = 'rgb(238, 238, 238)';
+            }
+        }
+    }
+
+
+//Exercício 4
+function buttonFriday(string) {
+    let buttonH = document.createElement('button');
+    buttonH.innerHTML = string;
+    buttonH.id = "btn-friday"
+    document.querySelector('.buttons-container').appendChild(buttonH);
+}
+buttonFriday('Sexta-Feira');
 
 
 //exercicio 5
-const buttonF = document.getElementById('btn-holiday');
-
-function clickHoliday() {
-let  daysF = document.getElementsByClassName('friday');
-for (let i of daysF) {
-if (i.innerText === 4 || i.innerText === 11 || i.innerText === 18 || i.innerText === 25) {
-i.innerHTML = 'Sexta-feira';
-} else {
-i.innerText = i;
-}
-
-}
-} 
-
-buttonF.addEventListener('click', clickHoliday);
+const buttonF = document.getElementById('btn-friday');
+buttonF.addEventListener('click', clickFriday);
 
 
-function clickHoliday () {
-    let dayH = document.getElementsByClassName('holiday');
-    const daysHoli = [24, 25, 31]
+function clickFriday () {
+    let dayF = document.getElementsByClassName('friday');
+    const daysFriday = [4, 11, 18, 25]
 
-    for (let i = 0; i < dayH.length; i += 1) {
-        console.log(daysHoli[i])
-        if (dayH[i].innerText == "holiday") {
-            dayH[i].innerText = daysHoli[i];
+    for (let i = 0; i < dayF.length; i += 1) {
+        console.log(dayF[i].innerText)
+        if (dayF[i].innerText == "Friday") {
+            dayF[i].innerText = daysFriday[i];
         } else {
-            dayH[i].innerText = 'holiday';
+            dayF[i].innerText = 'Friday';
         }
     }
 }
 
+
+//Exercicio 6
 const zoom = document.getElementById('days');
 
 
 function zoomActive(event) {
-    zoom.style.fontSize = '30px';
+    event.target.style.fontSize = '30px';
+}
+
+function zoomInactive(event) {
+    event.target.style.fontSize = '20px';
 }
 
 zoom.addEventListener('mouseover', zoomActive);
+zoom.addEventListener('mouseout', zoomInactive);
+
+
+//Exercício 7
+let parent = document.querySelector('.my-tasks');
+
+function addTask(string) {
+    let span = document.createElement('span');
+    span.innerText = string;
+    parent.appendChild(span);
+}
+
+addTask('Limpar casa');
+
+
+//Exercício 8
+function addColorLegend(color) {
+    let div = document.createElement('div');
+    div.className = 'task';
+    div.style.backgroundColor = color;
+    parent.appendChild(div);
+}
+
+addColorLegend('red');
+
+
+//Exercício 9
+let task = document.querySelector('.task');
+task.addEventListener('click', addSelected);
+
+function addSelected() {
+    if (task.classList.contains('selected')) {
+        task.classList.remove('selected');
+    } else {
+        task.classList.add('selected');
+    }
+}
+
+
+//Exercício 10
+zoom.addEventListener('click', colorDayTask);
+
+function colorDayTask(event) {
+    let taskSelected = document.querySelector('.selected');
+    
+    if (event.target.style.color === taskSelected.style.backgroundColor) {
+        event.target.style.color = "rgb(119, 119, 119)";
+    } else {
+        event.target.style.color = taskSelected.style.backgroundColor;
+    }
+}
+
+
+//Bonus
+let add = document.querySelector('#btn-add');
+add.addEventListener('click', addCommit);
+let textInput = document.querySelector('#task-input');
+
+function addCommit() {
+    if (textInput.value === '') {
+        alert('Campo vazio! Adicione algum compromisso!');
+    } else {
+        let li = document.createElement('li');
+        li.innerText = textInput.value;
+        let list = document.querySelector('.task-list');
+        list.appendChild(li);
+    }
+}
+
+textInput.addEventListener('keyup', addCommitKey);
+
+function addCommitKey(event) {
+    if (event.keyCode === 13) {
+        let li = document.createElement('li');
+        li.innerText = textInput.value;
+        let list = document.querySelector('.task-list');
+        list.appendChild(li);
+    }
+}
