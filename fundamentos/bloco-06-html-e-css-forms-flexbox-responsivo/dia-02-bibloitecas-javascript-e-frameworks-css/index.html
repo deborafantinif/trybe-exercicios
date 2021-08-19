@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Currículo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Meu Currículo</h1>
+    
+    <form action="GET" class="box">
+        <fieldset>
+            <legend class="title is-4">Dados Pessoais</legend>
+
+            <div class="field">
+                <label for="name" class="label">Nome Completo</label>
+                <div class="control">
+                    <input type="text" name="name" id="name" class="input" maxlength="40" placeholder="Digite seu nome" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="email" class="label">Email</label>
+                <div class="control">
+                    <input type="email" name="email" id="email" class="input" maxlength="50" placeholder="Digite seu email" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="cpf" class="label">CPF</label>   
+                <div class="control">
+                    <input type="text" name="cpf" id="cpf" class="input" maxlength="11" placeholder="Digite seu CPF" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="address" class="label">Endereço</label>
+                <div class="control">
+                    <input type="text" name="address" id="address" class="input" maxlength="200" placeholder="Digite seu endereço" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="city" class="label">Cidade</label>    
+                <div class="control">
+                    <input type="text" name="city" id="city" class="input" maxlength="28" placeholder="Digite sua cidade" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="states" class="label">Estado</label>
+                <div class="control">
+                    <div class="select">
+                        <select name="state" id="states" required></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label for="type-house" class="radio"> 
+                        <input type="radio" name="type-home" id="type-house" required>Casa
+                    </label>
+                    <label for="type-apt" class="radio"> 
+                        <input type="radio" name="type-home" id="type-apt" required>Apartamento
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend class="title is-4">Último Emprego</legend>
+
+            <div class="field">
+                <label for="resume" class="label">Resumo do currículo</label>
+                <div class="control">
+                    <textarea name="resume" id="resume" cols="30" rows="8" maxlength="1000" required></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="office" class="label">Cargo</label>
+                <div class="control">
+                    <input type="text" name="office" id="office" class="input" maxlength="40" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="office-describe" class="label">Descrição do cargo</label>
+                <div>
+                    <input type="text" name="office-describe" id="office-describe" class="input" maxlength="500" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="date" class="label">Data de início</label>
+                    <input type="date" class="input" id="date" required>
+            </div>
+        </fieldset>
+
+        <div class="field is-grouped" id="buttons">
+            <div class="control">
+                <button class="button is-link" id="btn-send">Exibir</button>
+            </div>  
+
+            <div class="control">
+                <button type="reset" class="button is-link" id="btn-clean">Limpar</button>
+            </div>  
+        </div>
+
+        <div class="clean"></div>
+    </form>
+
+    <div class="box view">
+        <div class="content">
+            <h2 class="name title"></h2>
+            <p class="email"></p>
+            <p class="cpf"></p>
+            <p class="address"></p>
+        </div>
+
+        <div class="content">
+            <h3 class="about-me title is-4"></h3>
+            <p class="about-me"></p>
+        </div>
+        
+        <div class="content">
+            <h3 class="job is-6"></h3>
+            <p class="job"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

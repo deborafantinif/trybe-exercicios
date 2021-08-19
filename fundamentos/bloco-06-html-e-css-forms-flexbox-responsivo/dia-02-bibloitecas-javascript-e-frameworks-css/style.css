@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.title {
+    padding-top: 30px;
+}
+
+#buttons {
+    float: right;
+    margin: 20px 10px 0px 0px;
+}
+
+.clean {
+    clear: both;
+}
+
+.view {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(220, 216, 253);
+}
