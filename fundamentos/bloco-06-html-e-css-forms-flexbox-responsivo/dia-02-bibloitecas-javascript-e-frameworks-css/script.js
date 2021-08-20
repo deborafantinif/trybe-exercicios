@@ -38,7 +38,7 @@ const homeInput = document.querySelector('#type-home');
 const resumeInput = document.querySelector('#resume'); 
 const officeInput = document.querySelector('#office'); 
 const officeDescribeInput = document.querySelector('#office-describe'); 
-const dateInput = document.querySelector('#date'); 
+const dateInput = document.querySelector('#datepicker'); 
 //BUTTONS
 const btnSend = document.querySelector('#btn-send');
 const btnClean = document.querySelector('#btn-clean');

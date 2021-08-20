@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Currículo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="name">Nome Completo: 
+                <input type="text" name="name" id="name" maxlength="40" placeholder="Digite seu nome" required>
+            </label>
+            <br><br>
+            <label for="email">Email: 
+                <input type="email" name="email" id="email" maxlength="50" placeholder="Digite seu email" required>
+            </label>
+            <br><br>
+            <label for="cpf">CPF: 
+                <input type="text" name="cpf" id="cpf" maxlength="11" placeholder="Digite seu CPF" required>
+            </label>
+            <br><br>
+            <label for="address">Endereço: 
+                <input type="text" name="address" id="address" maxlength="200" placeholder="Digite seu endereço" required>
+            </label>
+            <br><br>
+            <label for="city">Cidade: 
+                <input type="city" name="city" id="city" maxlength="28" placeholder="Digite sua cidade" required>
+            </label>
+            <br><br>
+            <label for="states">Estado: 
+                <select name="state" id="states" required></select>
+            </label>
+            <br><br>
+            <label for="type-house"> 
+                <input type="radio" name="type-home" id="type-house" required>Casa
+            </label>
+            <label for="type-apt"> 
+                <input type="radio" name="type-home" id="type-apt" required>Apartamento
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Último Emprego</legend>
+
+            <label for="resume">Resumo do currículo: <br>
+                <textarea name="resume" id="resume" cols="30" rows="8" maxlength="1000" required></textarea>
+            </label>
+            <br><br>
+            <label for="office">Cargo: 
+                <input type="text" name="office" id="office" maxlength="40" required>
+            </label>
+            <br><br>
+            <label for="office-describe">Descrição do cargo: 
+                <input type="text" name="office-describe" id="office-describe" maxlength="500" required>
+            </label>
+            <br><br>
+            <label for="office-describe">Data de início: 
+                <input type="date" data-date-format="DD MMMM YYYY" required>
+            </label>
+        </fieldset>
+
+        <button type="submit" id="btn-send">Enviar</button>
+        <button id="btn-clean">Limpar Dados</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

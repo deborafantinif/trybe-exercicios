@@ -97,8 +97,8 @@
             </div>
 
             <div class="field">
-                <label for="date" class="label">Data de início</label>
-                    <input type="type" class="input" id="date datepicker" required>
+                <label for="datepicker" class="label">Data de início</label>
+                    <input type="text" class="input" id="datepicker" placeholder="DD/MM/YYYY" required>
             </div>
         </fieldset>
 
@@ -136,16 +136,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="./script.js"></script>
-    <script src="moment.js"></script>
-    <script src="pikaday.js"></script>
     <script>
         var picker = new Pikaday({
-            field: document.getElementById('datepicker'),
-            format: 'DD MM YYYY',
-            onSelect: function() {
-                console.log(this.getMoment().format('DD MM YYYY'));
-            }
-        });
+        field: document.getElementById('datepicker'),
+        format: 'D/M/YYYY',
+        toString(date, format) {
+            // you should do formatting based on the passed format,
+            // but we will just return 'D/M/YYYY' for simplicity
+            const day = date.getDate();
+            const month = date.getMonth() + 1;
+            const year = date.getFullYear();
+            return `${day}/${month}/${year}`;
+        }
+    });
     </script>
-</body>
+    
 </html>
