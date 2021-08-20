@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Currículo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -97,7 +98,7 @@
 
             <div class="field">
                 <label for="date" class="label">Data de início</label>
-                    <input type="date" class="input" id="date" required>
+                    <input type="type" class="input" id="date datepicker" required>
             </div>
         </fieldset>
 
@@ -132,6 +133,19 @@
             <p class="job"></p>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="./script.js"></script>
+    <script src="moment.js"></script>
+    <script src="pikaday.js"></script>
+    <script>
+        var picker = new Pikaday({
+            field: document.getElementById('datepicker'),
+            format: 'DD MM YYYY',
+            onSelect: function() {
+                console.log(this.getMoment().format('DD MM YYYY'));
+            }
+        });
+    </script>
 </body>
 </html>
