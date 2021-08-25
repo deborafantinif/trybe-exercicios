@@ -1,0 +1,47 @@
+body {
+  font-size: 20px;
+  margin: 30px;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 27px;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+figure {
+  margin: 60px 30px;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: rgb(227, 210, 243);
+    font-size: 22px;
+    margin: 50px;
+  }
+
+  main img {
+    max-width: 300px;
+  }
+
+  main div{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    flex-flow: row wrap;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: cornflowerblue;
+    font-size: 25px;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+}
