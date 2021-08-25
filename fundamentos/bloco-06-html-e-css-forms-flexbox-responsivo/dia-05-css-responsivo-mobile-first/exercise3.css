@@ -80,3 +80,13 @@
   padding: 20px;
   height: 1%;
 }
+
+@media print {
+  header, nav, footer {
+    display: none;
+  }
+
+  #aside {
+    width: 100%;
+  }
+}
