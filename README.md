@@ -31,7 +31,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - HTML & CSS](https://deborafantinif.github.io/projeto-01/)_
 
-##### Bloco 4: Introdução - JavaScript :hourglass_flowing_sand:
+##### Bloco 4: Introdução - JavaScript :heavy_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
@@ -39,7 +39,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-015-a-project-playground-functions/pull/22)_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
+##### Bloco 5: Introdução - JavaScript - Projetos :hourglass_flowing_sand:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
@@ -47,22 +47,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
 - [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [x] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
-##### Bloco 6: HTML & CSS avanÃ§ado
+##### Bloco 6: HTML & CSS avanÃ§ado :hourglass_flowing_sand:
 
 - [ ] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: JavaScript ES6 & Testes Unitários :hourglass_flowing_sand:
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
 - [ ] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
