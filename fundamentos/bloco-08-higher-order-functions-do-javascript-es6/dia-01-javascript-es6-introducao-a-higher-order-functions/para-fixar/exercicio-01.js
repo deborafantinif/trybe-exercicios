@@ -4,6 +4,8 @@ const coffee = () => 'Bora tomar café!!';
 
 const sleep = () => 'Partiu dormir!!';
 
-const doingThings = (func) => func();
+const doingThings = (func) => {
+  console.log(func());
+};
 
-console.log(doingThings(sleep));
+doingThings(sleep);
