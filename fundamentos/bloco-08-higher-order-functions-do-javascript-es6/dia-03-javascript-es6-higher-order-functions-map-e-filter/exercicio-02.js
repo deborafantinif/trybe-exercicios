@@ -97,7 +97,7 @@ function nameAndAge() {
       author: books[index].author.name }
   ))
 
-  return ageAndNameAuthorRealease.age.sort((a, b) => a - b);
+  return ageAndNameAuthorRealease.sort((a, b) => a.age - b.age);
 }
 
 assert.deepStrictEqual(nameAndAge(), expectedResult);
