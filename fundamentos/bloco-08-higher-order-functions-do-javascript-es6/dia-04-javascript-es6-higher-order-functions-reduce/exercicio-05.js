@@ -7,7 +7,14 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
+  let numberAs = 0;
+  names.map(name => { name
+  .split('')
+  .filter(letter => ((letter.toLowerCase() === 'a') ? numberAs += 1 : numberAs))
+  })
+
+  return numberAs;
 }
+
 
 assert.deepStrictEqual(containsA(), 20);
