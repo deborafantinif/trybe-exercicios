@@ -65,8 +65,10 @@ const books = [
 
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
+const authors = (total, author) => ((total.id === 1) ? `${total.author.name}, ${author.author.name}` : `${total}, ${author.author.name}`);
+
 function reduceNames() {
-  return books.reduce((string, book) => `${string.push(book.author.name)}, `)
+  return books.reduce(authors).concat('.')
 }
 
 assert.strictEqual(reduceNames(), expectedResult);
