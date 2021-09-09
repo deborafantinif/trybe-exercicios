@@ -6,8 +6,10 @@ const arrays = [
   [4, 5, 6],
 ];
 
+const concatValues = (total, value) => total.concat(value);
+
 function flatten() {
-  return arrays.reduce((biggerArray, element) => biggerArray.push(element))
+  return arrays.reduce(concatValues)
 }
 
 assert.deepStrictEqual(flatten(), ['1', '2', '3', true, 4, 5, 6]);
