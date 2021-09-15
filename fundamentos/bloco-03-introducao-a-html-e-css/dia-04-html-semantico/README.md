@@ -1,6 +1,6 @@
 # Dia 04
 
-## Exercício 01 
+## Exercício 01 :writing_hand:
 
 Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o [Stomatopoda](https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder). A estilização da página fica a seu critério. 😉
 Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos exercícios:
