@@ -1,19 +1,19 @@
 # Dia 03
 
-## Exercício 01
+## Exercício 01 :writing_hand:
 
 1. Insira na classe um padding de 20px para aplicá-lo aos itens B, C e D
 2. Insira na classe uma margem de 30px para aplicá-la aos itens C e D 
 3. Insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D
 
-## Exercício 02 
+## Exercício 02 :writing_hand:
 
 Personagens pertencentes à Nintendo©
-1 - Posicione o Mário acima do Goomba.
-2 - Posicione a tag p para que fique dentro do balão de fala.
-3 - Posicione o balão para que se torne uma fala de Bowser.
+1. Posicione o Mário acima do Goomba.
+2. Posicione a tag p para que fique dentro do balão de fala.
+3. Posicione o balão para que se torne uma fala de Bowser.
 
-## Exercício 03 
+## Exercício 03 :writing_hand:
 
 ### Parte I
 
@@ -25,6 +25,7 @@ Personagens pertencentes à Nintendo©
     - A fonte do item mude quando ele for clicado.
 4. Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
 5. No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
+
 **Dica**: Nesse [link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes) , você irá encontrar a documentação sobre todas as pseudoclasses do CSS.
 
 ### Parte II
@@ -35,7 +36,7 @@ Personagens pertencentes à Nintendo©
 4. Faça a terceira div ser maior que as demais.
 5. Deixe as tags ímpares h3 com o texto em itálico.
 
-## Exercício 04
+## Exercício 04 :writing_hand:
 
 
 1. Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).
@@ -43,5 +44,7 @@ Personagens pertencentes à Nintendo©
 3. Faça todas as li's terem 20px de tamanho de fonte e, para todo texto em itálico dentro de alguma li, utilize a propriedade font-weight para deixá-lo negrito.
 4. Na listagem de linguagens de programação, faça com que as 3 primeiras da lista possuam cor de fonte azul e, se alguma possuir "java*" no texto, utilize uma cor de fundo rosa.
 5. (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte "temática do site"
+
 **Dica 1:** Utilize o seletor :hover para controlar o passar do mouse.
+
 **Dica 2:** Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).

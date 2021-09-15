@@ -1,6 +1,6 @@
 # Dia 02
 
-## Entendendo os comandos
+## Entendendo os comandos :writing_hand:
 
 ⚠️ **Para fazer os exercícios a seguir, você deve utilizar o projeto com o texto no arquivo .txt , localizado dentro do diretório do dia anterior, crie uma cópia para usar no dia de hoje.**
 Dessa vez, cada um deve fazer os exercícios em seu computador, ok? Vamos lá! 😋
