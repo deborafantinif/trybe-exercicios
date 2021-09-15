@@ -9,9 +9,9 @@
 ## Exercício 02 :writing_hand:
 
 Personagens pertencentes à Nintendo©
-1 - Posicione o Mário acima do Goomba.
-2 - Posicione a tag p para que fique dentro do balão de fala.
-3 - Posicione o balão para que se torne uma fala de Bowser.
+1. Posicione o Mário acima do Goomba.
+2. Posicione a tag p para que fique dentro do balão de fala.
+3. Posicione o balão para que se torne uma fala de Bowser.
 
 ## Exercício 03 :writing_hand:
 
@@ -25,6 +25,7 @@ Personagens pertencentes à Nintendo©
     - A fonte do item mude quando ele for clicado.
 4. Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
 5. No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
+
 **Dica**: Nesse [link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes) , você irá encontrar a documentação sobre todas as pseudoclasses do CSS.
 
 ### Parte II
