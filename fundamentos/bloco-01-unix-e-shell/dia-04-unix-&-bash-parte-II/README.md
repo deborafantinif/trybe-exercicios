@@ -4,7 +4,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 Os requisitos do exercício são:
 
-## Parte I - Comandos de Input e Output
+## Parte I - Comandos de Input e Output :writing_hand:
 
 1. Navegue até a pasta unix_tests ;
 2. Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet , 3. Unix e Bash , um em cada linha.
@@ -18,7 +18,7 @@ Os requisitos do exercício são:
 11. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
 12. Ordene o arquivo bunch_of_things.txt .
 
-## Parte II - Permissões
+## Parte II - Permissões :writing_hand:
 
 1. Navegue até a pasta unix_tests ;
 2. Rode o comando ls -l e veja quais as permissões dos arquivos;
@@ -29,7 +29,7 @@ Os requisitos do exercício são:
 5. Volte à permissão do arquivo bunch_of_things.txt para a listada inicialmente utilizando o comando chmod 644 bunch_of_things.txt .
 > Resultado esperado: -rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
 
-## Parte III - Processos & Jobs
+## Parte III - Processos & Jobs :writing_hand:
 
 1. Liste todos os processos;
 2. Agora use o comando sleep 30 & ;
