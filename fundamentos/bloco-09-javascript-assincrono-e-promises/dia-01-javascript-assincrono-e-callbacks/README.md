@@ -2,7 +2,7 @@
 
 ## Para Fixar - Callbacks :writing_hand:
 
-- No código abaixo você tem a função `getUser`, que retorna uma pessoa qualquer. Complete a função `getUser` de forma que ela receba uma outra função como parâmetro para que possa realizar as operações abaixo sobre a pessoa retornada.
+1. No código abaixo você tem a função `getUser`, que retorna uma pessoa qualquer. Complete a função `getUser` de forma que ela receba uma outra função como parâmetro para que possa realizar as operações abaixo sobre a pessoa retornada.
 
 ```
 const assert = require('assert');
@@ -21,6 +21,8 @@ const getUser = () => {
 assert.strictEqual(getUser(), "Hello! My name is Ivan Ivanovich"); // complete a chamada da função de getUser
 assert.strictEqual(getUser(), "Ivan is Russian"); // complete a chamada da função de getUser
 ```
+
+
 
 2. No código abaixo você tem a função `getUser` modificada, que agora funciona de modo assíncrono e imprime dados de uma pessoa qualquer depois de um certo tempo. Complete a função `getUser` de forma que ela receba um `callback` para que possa realizar as operações abaixo sobre a pessoa.
 
@@ -46,6 +48,8 @@ getUser(userNationality); // deve imprimir "Ivan is Russian" depois de um certo 
 ```
 
 **Obs:** note e averigue o comportamento assíncrono da função `getUser` ao chamar `getUser(userFullName)` seguido de `getUser(userNationality)`. Tem hora que é impresso antes no console o nome da pessoa, e tem hora que é impressa antes a nacionalidade da pessoa!
+
+
 
 
 ## Para Fixar - Lidando com erros em operações assíncronas :writing_hand:
@@ -84,6 +88,8 @@ getCountry(countryName, printErrorMessage);
 getCountry(countryCurrency, printErrorMessage);
 ```
 
+
+
 ## Exercícios :writing_hand:
 
 1. Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
@@ -121,6 +127,7 @@ console.log(planetDistanceFromSun(venus)); // B
 console.log(planetDistanceFromSun(jupiter)); // C
 ```
 
+
 2. Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 
 ```
@@ -156,6 +163,8 @@ setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
 setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
 ```
 
+
+
 3. A função `getPlanet` abaixo imprime o planeta Marte de forma síncrona. Modifique `getPlanet`, de forma que Marte seja impresso assincronamente, depois de 4 segundos.
 
 ```
@@ -173,6 +182,8 @@ const getPlanet = () => {
 getPlanet(); // imprime Marte depois de 4 segundos
 ```
 
+
+
 4. Suponha que você precise simular uma mensagem enviada do robô [Curiosity](https://mars.nasa.gov/) de Marte para a Terra. O `Curiosity` envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Crie a função `sendMarsTemperature`, que imprime a temperatura em Marte.
 
 ```
@@ -187,6 +198,7 @@ const getMarsTemperature = () => {
 
 sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
 ```
+
 
 
 5. Agora que você fez a função que envia a temperatura de Marte, suponha que você consiga enviar para o robô `Curiosity` o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adicione na função `sendMarsTemperature` um `callback` que contenha as ações a serem tomadas em cima da temperatura.
@@ -212,6 +224,8 @@ const greet = (temperature) =>
 sendMarsTemperature(temperatureInFahrenheit); // imprime "It is currently 47ºF at Mars", por exemplo
 sendMarsTemperature(greet); // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo
 ```
+
+
 
 6. Por fim, o robô `Curiosity` tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações. Logo, adicione na função `sendMarsTemperature` um outro `callback` que contenha as ações a serem tomadas em caso de falha.
 
