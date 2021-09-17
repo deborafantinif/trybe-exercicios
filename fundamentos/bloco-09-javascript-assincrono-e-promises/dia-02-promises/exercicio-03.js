@@ -1,11 +1,20 @@
-const promise = new Promise((resolve, reject) => {
-  const number = Math.floor(Math.random()* 11);
+const arrayNumbers = new Promise((resolve, reject) => {
+  const numbers = [];
 
-  if (number <= 5) {
-    return reject(number);
+  for (let i = 1; i <= 10; i += 1 ) {
+    const number = Math.floor(Math.random() * 51);
+    numbers.push(number);
   }
-  resolve(number);
+  const numbersSquare = numbers.map((number) => number * number)
+    .reduce((total, number) => total + number);
+  
+  if (numbersSquare < 8000) {
+    const restOfDiv = [2, 3, 5, 10].map((number) => numbersSquare / number);
+    return resolve(restOfDiv);
+  } else {
+    reject();
+  };
+
 })
-.then(number => `Que sucesso =) nosso número foi ${number}`)
-.then(msg => console.log(msg))
-.catch(number => console.log(`Que fracasso =( Nosso número foi ${number}`));
+.then((number) => console.log(number))
+.catch(() => console.log('Promise rejeitada'));
