@@ -80,7 +80,9 @@ window.onload = () => fetchJoke();
 ```
 
 - Viu a response? Até recebemos uma resposta do serviço, mas como é que eu consigo retirar o texto da piada daí 🤔?
+
 Para isso, usamos o método `.json()` na resposta da API . Esse método converte o conteúdo do `body` da Response e retorna uma outra Promise , que, quando bem-sucedida, retorna um JSON contendo as informações da piada.
+
 A partir do `fetch`, troque o `console.log()` anterior pelo método `.json()` e imprima os dados da requisição.
 
 ```
