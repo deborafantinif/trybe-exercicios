@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 function myFizzBuzz(num) {
   if (typeof num !== 'number') return false;
   if (num % 3 === 0 && num % 5 === 0) return 'fizzbuzz';
@@ -8,9 +6,4 @@ function myFizzBuzz(num) {
   return num;
 }
 
-assert.strictEqual(typeof myFizzBuzz, 'function');
-assert.strictEqual(myFizzBuzz(15), 'fizzbuzz');
-assert.strictEqual(myFizzBuzz(9), 'fizz');
-assert.strictEqual(myFizzBuzz(10), 'buzz');
-assert.strictEqual(myFizzBuzz(8), 8);
-assert.strictEqual(myFizzBuzz('6'), false);
+module.exports = myFizzBuzz;
