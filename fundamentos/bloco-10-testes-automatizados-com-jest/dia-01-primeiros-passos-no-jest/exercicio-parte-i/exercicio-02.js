@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 function myRemove(arr, item) {
   let newArr = [];
   for (let index = 0; index < arr.length; index += 1) {
@@ -10,11 +8,4 @@ function myRemove(arr, item) {
   return newArr;
 }
 
-assert.strictEqual(typeof myRemove, 'function');
-assert.deepStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 4]);
-assert.notDeepStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 3, 4]);
-assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5), [1, 2, 3, 4]);
-
-const myArray = [1, 9, 5, 6];
-myRemove(myArray, 9);
-assert.deepStrictEqual(myArray, [1, 9, 5, 6]);
+module.exports = myRemove;
