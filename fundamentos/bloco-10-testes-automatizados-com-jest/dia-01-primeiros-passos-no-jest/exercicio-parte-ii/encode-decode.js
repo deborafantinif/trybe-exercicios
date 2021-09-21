@@ -7,18 +7,25 @@ let table = {
 };
 
 function encode(string) {
-  let newString = [];
+  let newString = string.split('');
 
   for (let i = 0; i < string.length; i += 1) {
     for (let key in table) {
       if (string[i] === key) {
         newString[i] = table[key];
+        break;
+      } else {
+        newString[i] = string[i];
       }
     }
   }
+
   newString = newString.join("");
+
   return newString;
 }
+
+console.log(encode('aeiou'));
 
 function decode(string) {
   let newString = [];
@@ -27,7 +34,10 @@ function decode(string) {
     for (let key in table) {
       if (string[i] == table[key]) {
         newString[i] = key;
-      } 
+        break;
+      } else {
+        newString[i] = string[i];
+      }
     }
   }
   newString = newString.join("");
