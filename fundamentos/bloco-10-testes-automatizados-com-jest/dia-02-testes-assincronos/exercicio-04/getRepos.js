@@ -1,4 +1,4 @@
-const fetch = require('../node_modules/node-fetch');
+const fetch = require('node-fetch');
 
 const getRepos = (url) => {
   return fetch(url)
@@ -9,3 +9,5 @@ const getRepos = (url) => {
 };
 
 module.exports = getRepos;
+
+console.log(getRepos('https://api.github.com/orgs/tryber/repos'))
