@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  background-color: rgb(202, 168, 235);
+  margin: 0;
+  padding: 15px;
+}
+
+.content {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.content p {
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+}
+
+.content p:hover {
+  background-color: darkblue;
+  color: bisque;
+}
+
+.footer {
+  text-align: center;
+}
