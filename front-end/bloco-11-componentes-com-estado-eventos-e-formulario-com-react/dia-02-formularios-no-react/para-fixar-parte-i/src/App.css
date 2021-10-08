@@ -1,0 +1,10 @@
+.formStudent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: auto;
+}
+
+.formStudent label {
+  margin-bottom: 20px;
+}
