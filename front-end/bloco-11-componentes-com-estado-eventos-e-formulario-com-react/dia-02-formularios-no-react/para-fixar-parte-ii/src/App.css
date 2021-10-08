@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.formStudent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: auto;
+  justify-content: center;
+}
+
+.formStudent fieldset {
+  margin-bottom: 30px;
+  width: 250px;
+  text-align: center;
+}

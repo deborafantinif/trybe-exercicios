@@ -20,7 +20,7 @@ class Form extends React.Component {
 
         <form className="formStudent">
           <label>
-            Escolha uma texnologia
+            Escolha uma tecnologia
             <select>
               <option value="react">React</option>
               <option value="next">Next</option>
@@ -44,7 +44,7 @@ class Form extends React.Component {
           </label>
 
           <label>
-            Escreva quais são os suas metas para cumprir até i final do ano:
+            Escreva quais são os suas metas para cumprir até o final do ano:
             <textarea name="goals" />
           </label>
         </form>
