@@ -1,1 +1,6 @@
-SELECT Piece, Price FROM Provides WHERE Provider = 'RBT';
+SELECT 
+    Piece, Price
+FROM
+    Provides
+WHERE
+    Provider = 'RBT';
