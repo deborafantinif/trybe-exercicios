@@ -109,7 +109,7 @@ Esse banco de dados é de uso livre, sendo licenciado de acordo com os termos [d
 
 ## Bônus
 
-Para realizar as tarefas do 1 ao 4, restaure o seguinte banco de dados:
+Para realizar as tarefas do 1 ao 5, restaure o seguinte banco de dados:
 
 ```SQL
 DROP SCHEMA IF EXISTS PiecesProviders;
@@ -161,10 +161,12 @@ INSERT INTO Provides(Piece, Provider, Price)
 Esse banco de dados é de uso livre, sendo licenciado de acordo com os termos [deste link](https://creativecommons.org/licenses/by-sa/3.0/).
 
 
-1. Escreva uma query para ordernar o nome das empresas de forma alfabética descendente e que retorne somente o código e o nome da primeira empresa.
+1. Escreva uma query para exibir a peça e o preço de tudo que é provido pela empresa RBT.
 
 2. Escreve uma query para exibir todas as informações das cinco peças com os maiores preços.
 
-3. Escreva uma query para exibir o nome das empresas e preço das peças, começando a lista a partir do 3º item, e exibindo o preço das quatro peças mais caras.
+3. Escreva uma query para exibir o nome das empresas e preço das peças com os quatro maiores preços, começando a lista a partir do 3º item.
 
-4. Escreva uma query para exibir a string "A peça mais cara é a: Piece , provida pela empresa Provider e custa Price reais.", essa query deve retornar somene uma única string, sendo que Price se refere ao maior preço.
+4. Escreva uma query para exibir todas as informações das peças que são providas pela empresa HAL. Ordene o resultado pelos preços das peças de forma decrescente.
+
+5. Escreva uma query para exibir por quantas empresas a peça 1 é provida.
