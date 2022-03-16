@@ -6,6 +6,6 @@ module.exports = (number) => {
   } else if (number === 0) {
     return "neutro";
   } else {
-    return "invalido";
+    return "o valor deve ser um número";
   }
 };

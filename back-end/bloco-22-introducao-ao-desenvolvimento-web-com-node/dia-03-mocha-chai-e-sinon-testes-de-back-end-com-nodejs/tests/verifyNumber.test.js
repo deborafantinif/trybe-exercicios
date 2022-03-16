@@ -18,7 +18,7 @@ describe("Verifica se o funcionamento da função verifyNumber", () => {
     expect(verifyNumber(0)).to.equals('neutro');
   });
 
-  it("se retorna 'inválido' com valores que não são inteiros", () => {
-    expect(verifyNumber('test')).to.equals('invalido');
+  it("se retorna 'o valor deve ser um número' com valores que não são inteiros", () => {
+    expect(verifyNumber('test')).to.equals('o valor deve ser um número');
   });
 });
