@@ -25,7 +25,4 @@ const main = () => {
   console.log(calculaImc(altura, peso))
 }
 
-main()
-
-module.exports = main
-
+module.exports = main;

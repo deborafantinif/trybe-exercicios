@@ -21,4 +21,4 @@ const main = () => {
   console.log(calculaFibonacci(tamanhoFibonacci))
 }
 
-main()
+module.exports = main;

@@ -17,4 +17,4 @@ const main = () => {
   console.log(calcularFatorial(numeroFatorial))
 }
 
-main()
+module.exports = main;
